@@ -13,7 +13,8 @@
   <link rel="stylesheet" href="./highlighters/highlight.js/css/zenburn.css" id="theme">
   <!--[if lt IE 9]>
   <script src="lib/js/html5shiv.js"></script>
-  <![endif]-->  
+  <![endif]-->  <link rel="stylesheet" href = "assets/css/slidify-reveal.css">
+
 </head>
 <body>
   <div class="navbar navbar-inverse navbar-fixed-top">
@@ -419,7 +420,7 @@
   <h2>Fragmented Views</h2>
   <p>Hit the next arrow...</p>
 
-<p class = 'fragment'>... to step through ...</p>
+<p class='fragment'>... to step through ...</p>
 
 <ul class = "build incremental">
 <li>any type</li>
@@ -435,11 +436,11 @@
 </section>
 <section class='' data-state='' id='slide-22'>
   <h2>Incremental Paragraphs</h2>
-  <p class = 'fragment'>This is paragraph 1 and should appear on first click.</p>
+  <p class='fragment'>This is paragraph 1 and should appear on first click.</p>
 
-<p class = 'fragment'>This is paragraph 2 and should appear on second click.</p>
+<p class='fragment'>This is paragraph 2 and should appear on second click.</p>
 
-<p class = 'small'><a href="#/0">Back to the Beginning</a></p>
+<p class='small'><a href="#/0">Back to the Beginning</a></p>
 
 </section>
 <section class='' data-state='' id='slide-23'>
@@ -459,8 +460,8 @@
 
 <ul class = "build incremental">
 <li>Point 1</li>
-<li class = 'highlight-red'>Point 2</li>
-<li class = 'grow'>Point 3</li>
+<li class='highlight-red'>Point 2</li>
+<li class='grow'>Point 3</li>
 </ul>
 
 <script>
@@ -474,7 +475,7 @@ $('ul.incremental li').addClass('fragment')
 qplot(wt, mpg, data = mtcars)
 </code></pre>
 
-<p><img src="figure/unnamed-chunk-3.png" alt="plot of chunk unnamed-chunk-3"> </p>
+<p><img src="figure/unnamed-chunk-3-1.png" alt="plot of chunk unnamed-chunk-3"></p>
 
 </section>
 <section>
@@ -519,20 +520,8 @@ qplot(wt, mpg, data = mtcars)
     history: true,
     center: true,
     theme: Reveal.getQueryHash().theme || 'solarized', 
-    transition: Reveal.getQueryHash().transition || 'none',
-    multiplex: {
-        // Example values. Generate your own.
-        secret: null, // null so the clients do not have control of the master presentation
-        id: '9f1249def8c33fef', // id, obtained from socket.io server
-        url: 'revealjs.jit.su:80' // Location of socket.io server
-    },
-
-    // Optional libraries used to extend on reveal.js
+    transition: Reveal.getQueryHash().transition || 'none', 
     dependencies: [
-        // other deps
-        {src: 'http://revealjs.jit.su/socket.io/socket.io.js', 
-          async: true },
-        { src: './frameworks/revealjs/plugin/multiplex/client.js', async: true },
     // Cross-browser shim that fully implements classList -
     // https://github.com/eligrey/classList.js/
       { src: './frameworks/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList;}},

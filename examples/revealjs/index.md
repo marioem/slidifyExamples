@@ -159,7 +159,6 @@ You can select from different transitions, like:
 
 [Cube](?transition=cube#/transitions) - [Page](?transition=page#/transitions) - [Concave](?transition=concave#/transitions) - [Zoom](?transition=zoom#/transitions) - [Linear](?transition=linear#/transitions) - [Fade](?transition=fade#/transitions) - [None](?transition=none#/transitions) - [Default](?transition=default#/transitions)
 
-
 --- #themes
 
 ## Themes
@@ -167,7 +166,6 @@ You can select from different transitions, like:
 Reveal.js comes with a few themes built in: 
 
 [Sky](?theme=sky#/themes) - [Beige](?theme=beige#/themes) - [Simple](?theme=simple#/themes) - [Serif](?theme=serif#/themes) - [Night](?theme=night#/themes) - [Default](?theme=default#/themes) - [Solarized](?theme=solarized#/themes) - [Moon](?theme=moon#/themes)
-
 
 <small>* Theme demos are loaded after the presentation which leads to flicker. In production you should load your theme in the `<head>` using a `<link>`.</small>
 
@@ -345,8 +343,7 @@ library(ggplot2)
 qplot(wt, mpg, data = mtcars)
 ```
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
-
+![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-1.png)
 
 --- &vertical ds:soothe
 
